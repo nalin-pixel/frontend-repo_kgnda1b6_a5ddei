@@ -37,7 +37,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="rounded-2xl p-8 bg-gradient-to-br from-sky-500/10 via-indigo-500/10 to-violet-500/10 border border-white/10"
+            className="rounded-2xl p-8 bg-gradient-to-br from-fuchsia-500/10 via-violet-500/10 to-pink-500/10 border border-white/10"
           >
             <div className="grid grid-cols-3 gap-3">
               {[...Array(6)].map((_, i) => (

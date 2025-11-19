@@ -3,25 +3,25 @@ import { ExternalLink } from 'lucide-react'
 
 const items = [
   {
-    title: 'Neon Dashboard',
-    desc: 'A minimal analytics interface with real-time motion and gradients.',
+    title: 'Product Dashboard',
+    desc: 'A measured analytics interface with accessible motion and crisp typography.',
     link: '#',
   },
   {
-    title: 'Micro Interactions',
-    desc: 'A library of smooth, accessible animations for product teams.',
+    title: 'Interaction System',
+    desc: 'Reusable micro-interactions for teams that value clarity over flash.',
     link: '#',
   },
   {
-    title: 'Spline Experiments',
-    desc: 'Interactive 3D scenes blended into UI for delightful depth.',
+    title: '3D UI Studies',
+    desc: 'Subtle 3D depth integrated into pragmatic UI patterns.',
     link: '#',
   },
 ]
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative py-24">
+    <section id="projects" className="relative py-24 scroll-mt-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-end justify-between mb-10">
           <h2 className="text-2xl sm:text-3xl font-semibold text-white">Selected Work</h2>
@@ -41,7 +41,7 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: idx * 0.05 }}
               className="group rounded-2xl overflow-hidden border border-white/10 bg-white/5"
             >
-              <div className="aspect-video bg-gradient-to-br from-sky-500/20 via-indigo-500/10 to-violet-500/20" />
+              <div className="aspect-video bg-gradient-to-br from-fuchsia-500/15 via-violet-500/15 to-pink-500/15" />
               <div className="p-5">
                 <div className="flex items-center justify-between">
                   <div>
